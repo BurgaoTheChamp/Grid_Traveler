@@ -5,7 +5,7 @@
 
 uint64_t gridTraveler(const uint64_t &n, const uint64_t &m){
 
-    if (n == 1 && m == 1)
+    if (n == 1 || m == 1)
     {
         return 1;
     }
