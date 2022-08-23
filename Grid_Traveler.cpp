@@ -21,7 +21,7 @@ uint64_t gridTraveler_hashed(const uint64_t &n, const uint64_t &m){
 
     std::string key = std::to_string(n) + "|" + std::to_string(m);
 
-    if (n == 1 && m == 1)
+    if (n == 1 || m == 1)
     {
         return 1;
     }
